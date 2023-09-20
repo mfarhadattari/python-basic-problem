@@ -27,3 +27,18 @@ def countWord(word):
 
 print(countWord("Farhad"))
 ```
+
+## Count number of vowels
+
+```python
+def countVowel(word):
+    vowels = 'aeiou'
+    numOfVowel = 0
+    for i in word:
+        for c in vowels:
+            if i == c:
+                numOfVowel += 1
+    return numOfVowel
+
+print(countVowel("hello"))
+```
