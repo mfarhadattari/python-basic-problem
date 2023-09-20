@@ -4,7 +4,7 @@
 - Word Count in string
 - Count number of vowels
 - Remove Duplicate from list
-- Fibonacci Seres
+- Fibonacci Series
 - Multiplication table
 
 ## Leap Year -
@@ -56,4 +56,19 @@ def removeDuplicate(array):
 
 numbers = [1, 2, 1, 3, 2, 5, 8, 5, 7]
 print(removeDuplicate(numbers))
+```
+
+## Fibonacci Series
+
+```python
+def fibonacci(num):
+    fibo = [0, 1]
+    i = 2
+    while(i <= num):
+        nextFibo = fibo[i-1] + fibo[i-2]
+        fibo.append(nextFibo)
+        i+=1
+    return fibo
+
+print(fibonacci(10))
 ```
