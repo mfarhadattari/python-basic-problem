@@ -17,3 +17,13 @@ if(year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)):
 else:
     print(year ,"is Not Leap Year")
 ```
+
+## Word Count of string
+
+```python
+# Word count of a string
+def countWord(word):
+    return len(word)
+
+print(countWord("Farhad"))
+```
