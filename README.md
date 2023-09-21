@@ -132,3 +132,14 @@ def areaOfRectangular(length, width):
 result = areaOfRectangular(20, 15)
 print(result)
 ```
+
+## Area of circle
+
+```python
+def areaOfCircle(radius):
+    PI = 3.1416
+    return PI*radius*radius
+
+result = areaOfCircle(10)
+print(result)
+```
