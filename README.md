@@ -182,3 +182,16 @@ def largestOfThree(a,b,c):
 result = largestOfThree(12,16,9)
 print(result)
 ```
+
+## Is even or odd
+
+```python
+def isEvenOrOdd(number):
+    if(number % 2 == 0):
+        return "Even Number"
+    else:
+        return "Odd Number"
+
+result = isEvenOrOdd(70)
+print(result)
+```
