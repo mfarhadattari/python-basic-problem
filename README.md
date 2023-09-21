@@ -7,6 +7,22 @@
 - Fibonacci Series
 - Multiplication table
 - Arithmetic Calculator
+- Area Of Rectangular
+- Area of circle
+- Fahrenheit to celsius converter
+- Largest of 3 number
+- Is even or odd
+- Is positive or negative number
+- Area of triangle
+- Discount calculator
+- Grade pointing
+- Roots of quadratic equation
+- Find odd numbers from list
+- Is prime number
+- Sum of arithmetic series
+- Factorial
+- Min and Max of list
+- Sum of list
 
 ## Leap Year -
 
