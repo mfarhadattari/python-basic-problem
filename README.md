@@ -119,8 +119,19 @@ elif(operator == "/"):
     print("Result: ", num1 / num2)
 else:
     print("Something went wrong!")
+```
 
+## Area of triangle
 
+```python
+def areaOfTriangle(base, height):
+    result = 1/2 * base * height
+    return result
+
+base = int(input("Base: "))
+height = int(input("Height: "))
+result = areaOfTriangle(base, height)
+print(result)
 ```
 
 ## Area Of Rectangular
