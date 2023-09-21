@@ -7,13 +7,13 @@
 - Fibonacci Series
 - Multiplication table
 - Arithmetic Calculator
+- Area of triangle
 - Area Of Rectangular
 - Area of circle
 - Fahrenheit to celsius converter
 - Largest of 3 number
 - Is even or odd
 - Is positive or negative number
-- Area of triangle
 - Discount calculator
 - Grade pointing
 - Roots of quadratic equation
@@ -220,4 +220,14 @@ def isPositiveOrNegative(number):
 
 number = float(input("Number = "))
 print(isPositiveOrNegative(number))
+```
+
+## Discount calculator
+
+```python
+def discountPrice(price, discountRate):
+    totalDiscount = price * discountRate / 100
+    return totalDiscount
+
+print(discountPrice(1005, 15))
 ```
